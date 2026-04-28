@@ -1,0 +1,25 @@
+<odoo>
+    <record id="view_sale_order_list_approve" model="ir.ui.view">
+        <field name="name">sale.order.list.approve</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="inside">
+                <button name="action_confirm"
+                        type="object"
+                        string="Confirm"
+                         icon="fa-check"
+                         class="btn-success"
+                         invisible="state != 'draft'"/>
+
+                <button name="action_cancel"
+                        type="object"
+                        string="Cancel"
+                        icon="fa-times"
+                        class="btn-danger"
+                        invisible="state not in ('draft', 'sent')"/>
+
+            </xpath>
+        </field>
+    </record>
+</odoo>
