@@ -1,6 +1,5 @@
 <img width="1201" height="678" alt="image" src="https://github.com/user-attachments/assets/8216d729-cf35-4f1b-9c67-ac01e381ced3" />
 
-
 # Sale Order Approve from List View
 
 ## Overview
