@@ -8,7 +8,7 @@ This module allows users to confirm or cancel sale orders directly from the list
 ## Features
 - Confirm sale orders from list view
 - Cancel sale orders from list view
-
+  
 ## Installation
 1. Copy module to your Odoo addons directory
 2. Update Apps List
